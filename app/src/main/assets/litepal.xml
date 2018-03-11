@@ -3,8 +3,8 @@
     <dbname value = "jianyiweather.db"></dbname>
     <version value = "1"></version>
     <list>
-        <mapping class="example.com.jianyiweather.db.Province" />
         <mapping class="example.com.jianyiweather.db.City" />
         <mapping class="example.com.jianyiweather.db.County" />
+        <mapping class="example.com.jianyiweather.db.Province" />
     </list>
 </litepal>

@@ -1,10 +1,12 @@
 package example.com.jianyiweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
- * Created by Administrator on 2018\3\11 0011.
+ * Created by rhm on 2017/6/4.
  */
 
-public class Province {
+public class Province extends DataSupport {
     private  int id;
     private String provinceName;
     private int provinceCode;
