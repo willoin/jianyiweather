@@ -10,10 +10,6 @@ public class Now {
     @SerializedName("tmp")
     public String tmp;
 
-    public Cond cond;
-
-    public class Cond {
-        @SerializedName("txt")
-        public String txt;
-    }
+    @SerializedName("cond_txt")
+    public String txt;
 }

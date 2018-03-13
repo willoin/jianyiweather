@@ -12,7 +12,7 @@ public class Forecast {
     public Tmp tmp;
 
     public class Cond{
-        @SerializedName("txt_d")
+        @SerializedName("cond_txt_d")
         public String txt;
     }
 

@@ -6,14 +6,11 @@ import com.google.gson.annotations.SerializedName;
  * Created by Administrator on 2018\3\11 0011.
  */
 
-public class Aqi {
+public class Update {
 
-    public AqiCity city;
-
-    public class AqiCity{
-        @SerializedName("aqi")
+        @SerializedName("loc")
         public String aqi;
-        @SerializedName("pm25")
+        @SerializedName("utc")
         public String pm;
-    }
+
 }
